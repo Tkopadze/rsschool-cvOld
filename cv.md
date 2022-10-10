@@ -1,15 +1,15 @@
 #tinatin kopadze\
 ##contact\
--Email: [tiko.kopadze777@gmail.com](mailto:tiko.kopadze777@gmail.com)
--Linkedin: [tinatin kopadze](https://www.linkedin.com/in/%E1%83%97%E1%83%98%E1%83%9C%E1%83%90%E1%83%97%E1%83%98%E1%83%9C-%E1%83%99%E1%83%9D%E1%83%9E%E1%83%90%E1%83%AB%E1%83%94-93428a113/)   
--Tel: 571733234
--Facebook: [tiko kopadze](https://www.facebook.com/profile.php?id=100001954727912)
+-Email: [tiko.kopadze777@gmail.com](mailto:tiko.kopadze777@gmail.com)\
+-Linkedin: [tinatin kopadze](https://www.linkedin.com/in/%E1%83%97%E1%83%98%E1%83%9C%E1%83%90%E1%83%97%E1%83%98%E1%83%9C-%E1%83%99%E1%83%9D%E1%83%9E%E1%83%90%E1%83%AB%E1%83%94-93428a113/)   \
+-Tel: 571733234\
+-Facebook: [tiko kopadze](https://www.facebook.com/profile.php?id=100001954727912)\
 ##summary:\
 *Meticulous web developer with over 2 years of front end experience and passion for responsive website design and a firm believer in the mobile-first approach. W3C certified. Implemented new responsive website approach which increased mobile traffic by 20%.*\
 ##skills:\
--Microsoft office
--JavaScript
--Html
+-Microsoft office\
+-JavaScript\
+-Html\
 -Css\
 ##code example: \
     `var RADIUS = 20;
@@ -56,9 +56,9 @@ function drawCircle(radius, color, x, y){
     add(circle);
 } `\
 ##experience:\
--bitcamp stage 1 
--bitcamp stage 2
+-bitcamp stage 1 \
+-bitcamp stage 2\
 ##education:\
--2013-2019:Tsmu-Medical Doctor
--2020-present: Evex Hospitals-Endocrinology Residency
-##English:B2
+-2013-2019:Tsmu-Medical Doctor\
+-2020-present: Evex Hospitals-Endocrinology Residency\
+##English:B2\

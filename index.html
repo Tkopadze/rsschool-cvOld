@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="image">
+            <img src="./css.jpg" alt="photo">
+        </div>
+        <nav class="nav">
+            <ul class="navigation">
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#workingexperience">working experience</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#codeExample">Code Example</a></li>
+                <li><a href="#aboutme">about me</a></li>
+                <li><a href="#projectExample">project example</a></li>
+            </ul>
+            <h1 id="fullName">tinatin kopadze</h1>
+        </nav>
+    </header>
+    <main>
+        <div class="column">
+            <div class="contactHeading">
+                <h2 id="contact">contact:</h2>
+            </div>
+            <div class="contactList">
+                <ul>
+                    <li>mail:tiko.kopadze777@gmail.com</li>
+                    <li>tel:571777333</li>
+                    <li>linkedin:<a target="_blank" href="https://www.linkedin.com/in/%E1%83%97%E1%83%98%E1%83%9C%E1%83%90%E1%83%97%E1%83%98%E1%83%9C-%E1%83%99%E1%83%9D%E1%83%9E%E1%83%90%E1%83%AB%E1%83%94-93428a113/">tinatin kopadze</a></li>
+                    <li>facebook:<a target="_self" href="https://www.facebook.com/profile.php?id=100001954727912">tiko kopadze</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+            <div class="aboutmeheading">
+                <h2 id="aboutme">About me:</h2>
+            </div>
+            <div class="aboutMe">
+                <p>Meticulous web developer with over 2 years of front end experience and passion
+                    for responsive website design and a firm believer in the mobile-first approach.
+                    W3C certified. Implemented new responsive website approach which increased mobile
+                    traffic by 20%.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="educationHeader">
+                <h2 id="education">education:</h2>
+            </div>
+            <div class="educationList">
+                <ul>
+                    <li>2020-present</li>
+                    <li>2013-2019</li>
+                </ul>
+                <ul>
+                    <li>Social Sciences: Political Sciences, Sociology and Psychology MA - Ilia state university</li>
+                    <li>Social Sciences: Political Sciences, Sociology and Psychology - Ilia state university</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+            <div class="workingExperienceHeader">
+                <h2 id="workingexperience">working experience:</h2>
+            </div>
+            <div class="workingExperienceList">
+                <ul>
+                    <li>01/08/2018-01/03/2021</li>
+                    <li>01/11/2020-20/04/2022 </li>
+                    <li>08/06/2022-present</li>
+                </ul>
+                <ul>
+                    <li>sales manager - HOME VISION premium class furniture and accessories store</li>
+                    <li>the ministry of health- hot line operator</li>
+                    <li> Administrative Assistant - GC </li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+            <div class="CodeExampleheading">
+                <h2 id="codeExample">Code Example:</h2>
+            </div>
+            <div class="codeExample">
+                <pre>
+// This program draws a target that follows the mouse
+ var line = 0;
+ var ln = 0;
+ function start(){
+   mouseMoveMethod(crosshairs);
+   mouseClickMethod(red);
+function crosshairs(e){
+    remove(line);
+    line = new Line (0, e.getY(), getWidth(), e.getY());
+    line.setColor(Color.black);
+    line.setLineWidth(10);
+    line.setPosition(0, e.getY());
+    line.setEndpoint(getWidth(), e.getY());
+    add(line);
+    remove(ln);
+     ln = new Line (e.getX(), 0, e.getX(), getHeight());
+     ln.setColor(Color.black);
+     ln.setLineWidth(10);
+     ln.setPosition(e.getX(), 0);
+     ln.setEndpoint(e.getX(), getHeight());
+    add(ln);
+  }
+ function red(e){
+    var red = new Circle(10);
+    red.setPosition(e.getX(), e.getY());
+    red.setColor(Color.red);
+    add(red);
+  }
+        </pre>
+            </div>
+        </div>
+        <div class="column">
+            <div class="projectExampleheading">
+                <h2 id="projectExample">Project Example:</h2>
+            </div>
+            <div class="projectExample">
+                <a href="https://tkopadze.github.io/rsschool-cv/cv">CV</a>
+            </div>
+        </div>
+        <div class="column">
+            <div class="skillHeading">
+                <h2 id="skills">skills:</h2>
+            </div>
+            <div class="skill-card">
+                <div class="skill-row1">
+                    <div class="html">
+                        <div class="html-value"><span>HTML</span><span>50%</span></div>
+                        <div class="meter">
+                            <span id="html"><span class="progress"></span></span>
+                        </div>
+                    </div>
+                    <div class="css">
+                        <div class="css-value"><span>CSS</span><span>40%</span></div>
+                        <div class="meter">
+                            <span id="css"><span class="progress"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-row2">
+                    <div class="js">
+                        <div class="js-value"><span>JAVASCRIPT</span><span>35%</span></div>
+                        <div class="meter">
+                            <span id="javascript"><span class="progress"></span></span>
+                        </div>
+                    </div>
+                    <div class="microsoft">
+                        <div class="microsoft-value"><span>MICROSOFT OFFICE</span><span>70%</span></div>
+                        <div class="meter">
+                            <span id="mo"><span class="progress"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-row3">
+                    <div class="english">
+                        <div class="english-value"><span>ENGLISH</span><span>80%</span></div>
+                        <div class="meter">
+                            <span id="eng"><span class="progress"></span></span>
+                        </div>
+                    </div>
+                    <div class="russian">
+                        <div class="russian-value"><span>RUSSIAN</span><span>65%</span></div>
+                        <div class="meter">
+                            <span id="russ"><span class="progress"></span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <a href="https://github.com/Tkopadze"><img src="./assets/gitLogo.png" class="footerLogo" alt="github logo">
+            </a>
+            <h3>18/10/2022</h3>
+            <a href="https://app.rs.school/"><img class="footerLogo" src="https://app.rs.school/static/images/logo-rsschool3.png" alt="course logo"></a>
+        </div>
+    </footer>
+</body>
+</html>

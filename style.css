@@ -87,8 +87,25 @@ border-radius: 5px;
   align-items: center;
   color:#991241;
 }
+#html{
+  width:50%;
+}
+#css{
+  width:40%;
+}
+#javascript{
+  width:35%;
+}
+#mo{
+  width:70%;
+}
 
-
+#eng{
+  width:80%;
+}
+#russ{
+  width:65%;
+}
 meter { 
   height: 5px;
   position: relative;

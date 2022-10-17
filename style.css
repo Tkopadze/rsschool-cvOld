@@ -1,0 +1,230 @@
+body{
+margin: 0 auto;
+background-repeat:no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+
+}
+.header{
+    background-color: rgb(187, 27, 27);
+    color: aliceblue;
+   
+}
+header{
+    color: #00545C;
+    padding-left: 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+
+.image{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 200px;
+height: 250px;
+border-radius: 5px;
+}
+#fullName{
+  padding:0px;
+  font-size: 60px;
+}
+
+
+
+  .column {
+    padding-bottom: 30px;
+    width: 80%;
+    border-top: 5px solid #E6004F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+  }
+  
+  .contactHeading,.educationHeader,.workingExperienceHeader, .skillHeading, .CodeExampleheading, .aboutmeheading, .projectExample {
+    display: flex;
+    width:30%;
+    justify-content:flex-start;
+    align-items:flex-start;
+    text-align: center;
+    color:#E6004F;
+
+  }
+  .contactList, .workingExperienceList, .educationList {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+  h1 {
+    color:#E6004F;
+    padding: 40px;
+  }
+  ul{
+  border: 1px dashed cadetblue;
+  color: #b3e3c0;
+  padding: 10px;
+}
+
+.nav{
+  width:70%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navigation{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  color:#991241;
+}
+#html{
+  width:50%;
+}
+#css{
+  width:40%;
+}
+#javascript{
+  width:35%;
+}
+#mo{
+  width:70%;
+}
+
+#eng{
+  width:80%;
+}
+#russ{
+  width:65%;
+}
+meter { 
+  height: 5px;
+  position: relative;
+  background:#96D4D4;
+  overflow: hidden;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+}
+
+.progress {
+  background-color: #051BE6;
+}
+
+@keyframes progressBar {
+0% { width: 0; }
+100% { width: 100%; }
+}
+.html-value, .css-value,.bootstrap-value,.js-value,.cSharp-value,.angular-value{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  
+}
+.skill-row1,.skill-row2,.skill-row3{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.html,.css,.bootstrap,.js,.cSharp,.angular{
+  width: 50%;
+  padding-left: 10px;
+}
+.skill-main{
+  box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+  padding: 20px;
+
+}.meter { 
+  height: 13px;
+  position: relative;
+  background: #f3efe6;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+}
+
+@keyframes progressBar {
+0% { width: 0; }
+100% { width: 100%; }
+}
+.html-value, .css-value,.microsoft-value,.js-value,.english-value,.russian-value{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.skill-row1,.skill-row2,.skill-row3{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 50px;
+ 
+}
+.html,.css,.microsoft,.js,.english,.russian{
+  width: 50%;
+  padding-left: 10px;
+  
+}
+.skill-main{
+  box-shadow: 0px 5px 25px 0px cornflowerblue;
+  padding: 50px;
+
+}
+.footer{
+  width:100%;
+  height:200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+footer{
+  background-color: #00545C;
+  border-top: 8px solid #E6004F;
+  color:#E6004F;
+
+}
+
+.footerLogo{
+  width:110px;
+}
+header{
+  border-bottom:8px solid #E6004F;
+  flex-direction: row;
+  background-color: #00545C;
+ 
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  background-color: #110017;
+  color:#F2F7F2;
+
+}
+h2{
+  background-color: #00545C;
+  padding: 0px;
+  margin:0px;
+}
